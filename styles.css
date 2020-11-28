@@ -1,0 +1,126 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    background-color: #3D0063;
+    color: #DCC6E0
+  }
+  
+  h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 44px;
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+  }
+  
+  .container a {
+    background-color: #3D0063;
+    transition: background-color .5s;
+    text-decoration: none;
+    color: #FFAF19;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
+  .container a:hover {
+    background-color: #FFAF19;
+    color: #3D0063;
+   }
+  
+  .container {
+    border: 2px solid  #FFAF19;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: #fff;
+    color: #3D0063;
+  }
+  
+  .color-container {
+    width: 100%;
+  }
+  
+  .color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+  }
+  
+  .color-label {
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .color-hex {
+    font-family: 'Nova Mono', monospace;
+    font-size: 18px;
+  }
+  
+  .violet {
+    background-color: #3D0063;
+    color: #fff;
+  }
+  
+  .orange {
+    background-color: #FFAF19;
+    color: #3D0063;
+  }
+  
+  .violet-pale {
+    background-color: #DCC6E0;
+    color: #3D0063;
+  }
+  
+  .vert {
+    background-color: #0B4A00;
+    color: white;
+  }
+  
+  .vert-pale {
+    background-color: #3DE58E;
+    color: #0B4A00;
+  }
+
+  .font-panel {
+    width: 45%;
+    display: inline-block;
+}
+
+  .font-name {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+
+  .regular {
+    font-style: normal;
+  }
+
+  .bold {
+    font-weight: 700;
+  }
+
+  .italic {
+    font-style: italic;
+  }
+
+.raleway {
+  font-family: 'Raleway', sans-serif, helvetica;
+}
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif, arial;
+}
+
+.nova-mono {
+  font-family: 'Nova Mono', monospace, courier;
+}
+
+.text-panel h1 {
+  color: #3D0063;
+}
